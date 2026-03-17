@@ -1,0 +1,128 @@
+
+
+
+body {
+    font-family: Verdana, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+a{
+    color: black;
+}
+
+.rezerviraj-btn {
+  display: inline-block;
+  background-color: #8B3A3A;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.rezerviraj-btn:hover {
+  background-color: #6e2e2e;
+}
+
+.glavno {
+  background-color: #f5f5f5;   
+  color: #8B3A3A;              
+  padding: 12px;
+  border-radius: 5px;
+  border-bottom: 5px solid #8B3A3A;
+}
+
+.glavno a {
+  display: block;
+  padding: 15px 20px;
+  color: #8B3A3A;
+  text-decoration: none;
+}
+
+.glavno li {
+  display: inline-block;
+}
+
+
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  padding: 15px 20px;
+}
+
+
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+  }
+
+  .glavno ul {
+    display: none;
+  }
+
+  .glavno li {
+    display: block;
+    text-align: center;
+  }
+
+  .glavno ul.show {
+    display: block;
+  }
+}
+
+.opis{
+  background-color: #f5f5f5;  
+  color: #8B3A3A;             
+  padding: 15px;             
+  border-left: 5px solid #8B3A3A; 
+  border-radius: 5px;         
+  max-width: 80%;
+  margin-top: 30px;
+}
+
+
+.osobno{
+  background-color: #f5f5f5;  
+  color: #8B3A3A;             
+  padding: 15px;             
+  border-left: 5px solid #8B3A3A; 
+  border-radius: 5px;         
+  max-width: 80%;
+  margin-top: 30px;
+
+}
+
+.detalji {
+  background-color: #8B3A3A;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+  
+  border-top: 5px solid #f5f5f5;
+}
+
+.glavno img{
+  height: 80px;
+  width: auto;
+  transition: 0.3s ease;
+}
+
+.glavno img:hover {
+  filter: drop-shadow(0 0 6px #8b3a3a);
+}
+
+.glavno span {
+  color: #8B3A3A;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.detalji img{
+  width: 3%;
+}
