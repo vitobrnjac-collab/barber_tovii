@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="kontakt.css">
+  <title>Kontakt</title>
+</head>
+
+<body>
+
+  <div class="glavno">
+    <img src="logo.svg" alt="Logo">
+    <span>Kontakt</span>
+    <nav>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        ☰
+      </div>
+
+      <ul id="menu">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="usluge.html">Usluge</a></li>
+        <li><a href="galerija.html">Galerija</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+
+    </nav>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
+
+  <div class="kontakt">
+    <p><strong>Email:</strong>
+      <a href="mailto:vitobrnjac@gmail.com">vitobrnjac@gmail.com</a>
+    </p>
+
+    <p><strong>Mobitel:</strong>
+      <a href="tel:0957133091">095 713 3091</a>
+    </p>
+
+    <p><strong>Instagram</strong>
+      <a href="https://www.instagram.com/barber_tovi/">@barber_tovi</a>
+    </p>
+
+    <p><strong>Adresa:</strong> Žegoti 34, 51215 Kastav</p>
+
+    <iframe src="https://www.google.com/maps?q=Žegoti+34,+51215+Kastav&output=embed" width="600" height="400"
+      style="border:0; border-radius:5px; margin-top:15px;"></iframe>
+  </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
