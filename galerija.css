@@ -1,0 +1,121 @@
+
+
+
+body {
+    font-family: Verdana, sans-serif;
+    color: black;
+    background-color: white;
+}
+
+a{
+    color: black;
+}
+
+.glavno {
+  background-color: #f5f5f5;   
+  color: #8B3A3A;              
+  padding: 12px;
+  border-radius: 5px;
+  border-bottom: 5px solid #8B3A3A;
+}
+
+.glavno a {
+  display: block;
+  padding: 15px 20px;
+  color: #8B3A3A;
+  text-decoration: none;
+  
+  
+}
+
+.glavno li {
+  display: inline-block;
+}
+
+
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  padding: 15px 20px;
+}
+
+
+@media (max-width: 768px) {
+
+  .hamburger {
+    display: block;
+  }
+
+  .glavno ul {
+    display: none;
+  }
+
+  .glavno li {
+    display: block;
+    text-align: center;
+  }
+
+  .glavno ul.show {
+    display: block;
+  }
+}
+
+.galerija {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  color: #8B3A3A;
+}
+
+.galerija p {
+  background-color: #f5f5f5;
+  padding: 12px;
+  border-left: 5px solid #8B3A3A;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.slike {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.slike img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.slike img:hover {
+  transform: scale(1.05);
+}
+
+.glavno img{
+  height: 80px;
+  width: auto;
+  transition: 0.3s ease;
+}
+
+.glavno img:hover {
+  filter: drop-shadow(0 0 6px #8b3a3a);
+}
+
+.glavno span {
+  color: #8B3A3A;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.video {
+  width: 100%;
+  max-width: 400px; 
+  display: block;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
