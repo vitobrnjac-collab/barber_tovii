@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+        <div class="glavno">
+            <img src="logo.svg" alt="Logo">
+            <span>Barber Tovi</span>
+            <nav>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+
+            <ul id="menu">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="usluge.html">Usluge</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+
+        </nav>
+        </div>
+
+        <script>
+            function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+            }
+        </script>
+
+
+        <div class="opis">
+            <h2>Dobrodošli!</h2>
+            <p>Ako tražiš urednu frizuru, sređenu bradu i opuštenu atmosferu — na pravom si mjestu. Moj cilj je da svaki klijent ode zadovoljan i da se uvijek rado vrati.</p>
+            <a href="kontakt.html" class="rezerviraj-btn">Rezerviraj Termin</a>
+        </div>
+
+
+
+
+        <div class="osobno">
+            <h2>O Meni</h2>
+            <p>Bok! Ja sam Vito Brnjac, imam 19 godina i dolazim iz Kastva. Šišanjem se bavim jer volim rad s ljudima i osjećaj kad netko izađe zadovoljan frizurom. Stalno učim nove tehnike i trudim se da svaki klijent dobije frizuru koja mu najbolje odgovara.</p>
+            
+        </div>
+
+
+
+
+        <div class="detalji">
+            <p>Barber Tovi</p>
+            <p>Kastav, Hrvatska</p>
+            <a href="https://www.instagram.com/barber_tovi"><img src="instagram.png" alt="instagram_logo"></a>
+            <a href="https://www.tiktok.com/@vitobrnjac"><img src="tik-tok.png" alt="tiktok_logo"></a>
+        </div>
+
+
+</body>
+</html>
