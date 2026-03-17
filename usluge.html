@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="usluge.css">
+  <title>Usluge</title>
+</head>
+
+<body>
+
+  <div class="glavno">
+    <img src="logo.svg" alt="Logo">
+    <span>Usluge</span>
+    <nav>
+
+      <div class="hamburger" onclick="toggleMenu()">
+        ☰
+      </div>
+
+      <ul id="menu">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="usluge.html">Usluge</a></li>
+        <li><a href="galerija.html">Galerija</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+
+    </nav>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
+
+  <div class="usluga">
+    <div class="usluga-tekst">
+      <h2>Fade šišanje – 15 €</h2>
+      <p>Klasično i moderno šišanje prema tvojoj želji. Zajedno dogovaramo stil koji ti najbolje stoji, uz preciznost i pažnju na detalje.</p>
+    </div>
+    <img src="sisanje.jpg" alt="Fade šišanje">
+  </div>
+
+  <div class="usluga">
+    <div class="usluga-tekst">
+      <h2>Uređivanje brade – 5 €</h2>
+      <p>Uređivanje i oblikovanje brade kako bi izgledala čisto i uredno. Prilagođavam oblik licu i stilu koji želiš postići.</p>
+    </div>
+    <img src="photo.png" alt="brada" >
+  </div>
+
+  <div class="usluga">
+    <div class="usluga-tekst">
+      <h2>Šišanje + uređivanje brade – 20 €</h2>
+      <p>Kompletno uređivanje za svjež i sređen izgled. Kombinacija šišanja i uređivanja brade za potpuni doživljaj.</p>
+    </div>
+    <img src="oboje.jpg" alt="Šišanje i brada">
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
