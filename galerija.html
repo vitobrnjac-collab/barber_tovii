@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="galerija.css">
+    <title>Galerija</title>
+</head>
+
+<body>
+
+    <div class="glavno">
+        <img src="logo.svg" alt="Logo">
+        <span>Galerija</span>
+        <nav>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                ☰
+            </div>
+
+            <ul id="menu">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="usluge.html">Usluge</a></li>
+                <li><a href="galerija.html">Galerija</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+
+        </nav>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("show");
+        }
+    </script>
+
+    <div class="galerija">
+        <p>
+            Pogledaj neke od mojih dosadašnjih radova i stilova koje radim. Svaka frizura je prilagođena osobi jer nema
+            iste glave ni istog stila.
+        </p>
+
+        <div class="slike">
+            <img src="slika1.jpg" alt="Šišanje 1">
+            <img src="slika2.jpg" alt="Šišanje 2">
+            <img src="slika3.jpg" alt="Šišanje 3">
+            <img src="slika4.jpg" alt="Šišanje 4">
+        </div>
+
+        <p>Neke od radova možete pogledati i na videu:</p>
+        <video class="video" controls>
+            <source src="video.glavni.mp4" type="video/mp4">
+        </video>
+
+        
+
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
